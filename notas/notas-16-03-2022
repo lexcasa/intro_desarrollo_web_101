@@ -1,0 +1,115 @@
+OBJETIVO
+
+    -> WEB: HTML/CSS Y JAVASCRIPT
+    PROBLEMAS: 
+        -> Entender los fundamentos de HTML
+            -> Crear un esqueleto de un sitio web en HTML
+                -> Conocer que es HTML
+                -> Para que se usa?
+                -> Como se escribe
+        -> Como se conecta el HTML con CSS
+        -> Entender los fundamentos de CSS
+            -> Transformar el disenio en Codigo
+                -> Conocer que es CSS
+                -> Para que se usa?
+                -> Como se escribe
+        -> Como se conecta el HTML/CSS con JavaScript
+        -> Entender los fundamentos de Javascript
+        -> Como dejar la WEB dinamica
+
+Fundamentos HTML:
+
+    -> Cuando voy a crear un sitio en HTML 
+        -> Archivo con un nombre + extension .html
+        -> {nombre_archivo}.html
+    -> Quien interpreta el HTML
+        -> El navegador: Chrome
+    
+    HTML: Hypertext Markup Lang
+        -> <etiqueta> Contenido </etiqueta>
+
+    IDEA: Quiero escribir articulos de un blog
+
+        -> secciones
+            -> articulos
+                -> titulo
+                -> Parrafo
+        ---
+    
+    HTML: 
+        <html>
+            <head>
+            <body>
+        </html>
+
+    IDEA: Escribir un parrafo con mi nombre
+
+    Etiqueta HEAD: Es la que indica como se va a "ver" nuestro contenido
+    Etiqueta BODY: Contiene toda la informacion
+
+    Observacion: Todo HTML debe estar contenido por la etiqueta HTML
+    Observacion 2: Para abrir la consola en el chrome > Clic derecho > Inspeccionar elemento (o F12)
+
+    EJEMPLO #1: Articulo de un blog
+
+    -> Articulo
+        -> Titulo
+        -> Parrafo (resumen)
+        -> Link: Ver mas
+
+    PROBLEMAS: 
+        -> Como le digo a HTML ese elemento es un Articulo?: a traves de la etiqueta <article>
+        -> Como defino un titulo (cual es la etiqueta)
+            -> Depende del peso del titular
+                -> h1, h2, ..., h5
+        -> Cual es la etiqueta del link?
+            -> Concepto de navegacion: 
+                -> Si doy clic en un link me lleva de A ---> B
+
+            -> Se escribe con: <a> y dentro tiene la propiedad href
+    
+    NAVEGACIONES: 
+
+        -> Absoluta: Si el valor del href dentro de la etiqueta <a> tiene todas las partes de una URL entonces, 
+                     es una navegacion absoluta: href="https://google.com"
+                     -> Partes de una URL
+                        -> https:// (protocolo - HTTP)
+                        -> google.com (sitio)
+        -> Relativa
+            -> Hace referencia a otra pagina de mi carpeta
+
+        -> Referencial
+            -> Cuando tengo un elemento del HTML que esta identificado (id="nombre")
+            -> Puedo crear un link de la siguiente manera (en la misma pagina) href="#nombre"
+            -> Esto va a saltar de la posicion del link hasta el margen superiro del elemento identificado
+
+    REFERENCIA DOCUMENTACION: 
+        -> W3SCHOOL: https://www.w3schools.com/tags/default.asp
+
+    
+    EJERCICIO RAPIDO #1 
+
+        Crear tres articulos con los siguientes items
+            -> Titulo
+            -> Parrafo
+            -> Link (Navegacion relativa)
+    
+    EJERCICIO RAPIDO #2
+
+        Crear tres articulos con los siguientes items
+
+            -> Titular secundario (h2)
+            -> Imagen (investigar)
+            -> Link (Navegacion absoluta)
+
+    EJERCICIO RAPIDO #3
+
+        Crear cinco articulos con los siguientes items
+
+            -> Titular secundario
+            -> Titular terciario
+            -> Imagen
+            -> Parrafo
+            -> Parrafo
+            -> Link (Navegacion absoluta)
+
