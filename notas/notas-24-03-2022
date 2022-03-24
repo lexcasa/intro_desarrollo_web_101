@@ -155,4 +155,36 @@ LINK:
                 parrafo : hijo
                 link : hijo
 
+    EJERCICIO #6
+
+        SOMBRA
+
+            div : padre
+                titular terciario : hijo
+                parrafo : hijo
+
+    EJERCICIO #7
+
+        SOMBRA
+
+            article : padre 
+                titular secundario : hijo
+                link : hijo
+
+            div : padre
+    
+    EJERCICIO #8
+
+        SOMBRA
+
+            article
+                titular primario
+                link
+            
+            div 
+                titular secundario
+                link
+        
+    
+
     
