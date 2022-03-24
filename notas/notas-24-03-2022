@@ -1,0 +1,158 @@
+CLASE PASADA: 
+
+
+EJERCICIO RAPIDO #1 
+
+        Crear tres articulos con los siguientes items
+            -> Titulo
+            -> Parrafo
+            -> Link (Navegacion relativa)
+
+-
+
+articulos: 
+    <article>
+        <h2>Item 1</h2>
+        <p>asdsad </p>
+        <a href="ejemplo02.html"> Ir </a>
+    </article>
+
+
+LINK: 
+
+    - atributos: 
+
+        href -> valor (="...") -> link
+                                    -> relativo
+                                    -> basoluto
+                                    -> referencial
+
+        target -> valor -> _new
+                             -> abre el link en una pestana nueva
+
+
+ EJERCICIO RAPIDO #2
+
+        Crear tres articulos con los siguientes items
+
+            -> Titular secundario (h2)
+            -> Imagen (investigar)
+            -> Link (Navegacion absoluta)
+    SOMBRA:
+
+        article
+            h2
+            img (src)
+            a (href, target)
+
+        
+    src, href -> url's
+    
+    URLs
+        -> abs : servidor de terceros
+        -> relativas : estan dentro de mi proyecto
+
+
+    ABS: 
+
+        -> Cargo la imagen de un paisaje en la etiqueta img
+            -> Agrego una URL al valor del atributo src 
+
+                <img src="http://url.com/img.jpg" alt="paisaje">
+
+            -> Tiempo de ida 
+            -> Tiempo Procesamiento
+            -> Tiempo Vuelta
+
+    RELATIVA:
+
+        -> Cargo la imagen desde una carpeta local
+
+            ->  <img src="carpeta/img.jpg" alt="paisaje">
+
+    
+    -----
+
+    EJERCICIO RAPIDO #1 (REPASO)
+
+        Crear cinco articulos con los siguientes items
+
+            -> Titular secundario
+            -> Titular terciario
+            -> Imagen
+            -> Parrafo
+            -> Parrafo
+            -> Link (Navegacion absoluta)
+
+    EQ. DE ESTRUCTURA:
+
+    -> Grandes estructuras: article, div, section (GE)
+    -> Texto: h1, b, s, i (T)
+    -> Grandes textos: p (GT)
+
+    GE > GT > T
+
+    GE > GT
+    article
+        p
+
+    GT > GE No puede pasar
+    p
+        article
+
+
+    div: divider -> divisores
+
+    EJERCICIO RAPIDO #4: Construir un articulo del diario con la siguiente estructura
+
+    SOMBRA:
+
+        div
+            titular secundario
+            imagen
+            parrafo
+            link
+
+    -> div : padre
+
+            titular secundario : hijo
+            imagen : hijo
+            parrafo : hijo
+            link : hijo
+    
+    EJEMPLO #1:
+
+        Crear tres articulos con los siguientes items
+            -> Titulo
+            -> Parrafo
+            -> Link (Navegacion relativa)
+
+        SOMBRA: 
+
+            atricle : padre
+                titular : hijo
+                parrafo : hijo
+                link : hijo
+
+            
+    EJEMPLO #2: 
+
+        Crear un articulo con un titular e imagen
+
+            SOMBRA: 
+
+                article : padre
+                    titular : hijo
+                    imagen : hijo
+
+    EJERCICIO #5
+
+        SOMBRA: 
+
+            div : padre
+                titular secundario : hijo
+                imagen : hijo
+                parrafo : hijo
+                link : hijo
+
+    

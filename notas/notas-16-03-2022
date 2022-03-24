@@ -113,3 +113,21 @@ Fundamentos HTML:
             -> Parrafo
             -> Link (Navegacion absoluta)
 
+    CLASIFICACION DE LAS ETIQUETAS
+
+        -> Estructura
+        -> Lectura/Escritura (I/O)
+
+    ETQ. ESTRUCTURA: Contener a otras etiquetas (de valor semantico inferior) y a si mismo
+
+    Sintaxis: <nombre_etiqueta> [ Contenido ... ] </nombre_etiqueta>
+
+        -> Grandes estructuras: article, div, section
+        -> Texto: h1, b, s, i
+        -> Grandes textos: p
+
+        <article>
+            <article>
+
+        <p>
+            <article>
