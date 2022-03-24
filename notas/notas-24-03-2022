@@ -177,13 +177,86 @@ LINK:
 
         SOMBRA
 
-            article
+            article : padre
                 titular primario
                 link
             
-            div 
+            div : padre
                 titular secundario
                 link
+    
+    EJERCICIO #9
+
+        SOMBRA
+
+            article : padre
+                div : hijo
+                    titular secundario : nieto 
+                    parrafo : nieto
+            
+            div : padre
+                titular secundario : hijo
+        
+    TITULAR h
+        primario h1
+        secundario h2
+        ...
+
+    EJERCICIO #10
+
+        SOMBRA
+
+            article : padre 
+                div : hijo 
+                titular secundario : hijo
+            
+            div : padre
+                article : hijo
+                    parrafo : nieto
+
+    EJERCICIO #11
+
+        SOMBRA
+
+            article
+            article
+                parrafo
+
+            div
+                titular primario
+                    link
+
+    EJERCICIO #12
+
+        SOMBRA
+
+            article
+                link
+                link
+            article
+                div
+                    link
+
+            div
+                titular primario
+                parrafo
+
+    EJERCICIO #13
+
+        SOMBRA
+
+            div
+            div
+                div
+                    div
+                    article
+                    
+            article
+                parrafo
+                link
+                    div
+
+
         
     
 
