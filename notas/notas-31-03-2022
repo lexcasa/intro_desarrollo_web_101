@@ -1,0 +1,53 @@
+FORMULARIOS
+
+    -> Son estructuras que contienen pequenas estructuras de tipo: I/O (lectura/escritura)
+
+    EJEMPLO DE LA REALIDAD: 
+
+        -> Donde utilizamos? 
+            -> Ingresar a un sitio web (login de Facebook)
+
+    EJEMPLO: Login de Facebook
+
+        -> Cuales son los componentes de un formulario
+
+            -> Campo para ingresar email -> input
+            -> Campo para ingresar clave -> input
+            -> Boton para realizar la accion -> button
+        
+    
+    Etiquetas de tipo I/O
+
+        <etiqueta propiedades ... />
+
+        input: 
+            <input type="email" value="" name="email" placeholder="Email" />
+
+            Propiedades: 
+
+                - value: valor del input
+                - name: nombre de la variable HTML
+                - placeholder: texto interno del input
+                - type: text, email, password
+
+        button: 
+            <button type="button">Ingresar</button>
+        
+            Propiedades: 
+
+                - type: button -> Boton estatico
+                - type: submit -> Boton dinamico
+        
+    Un formulario esta soportado por la etiqueta: form
+
+        -> form
+                input
+                input
+                button
+
+    Propiedades
+
+        -> action: Para formularios dinamicos es donde va una URL a donde se va a enviar la informacion
+        del formulario
+        -> method: Que es como se va a enviar esa informacion a traves de HTTP (protocolo)
+        
