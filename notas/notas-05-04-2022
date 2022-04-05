@@ -1,0 +1,28 @@
+- OBJETIVO: Replicar el diseno en HTML y CSS
+
+Para replicar el diseno (Maqueta): 
+    -> Identificar Griding del diseno
+    -> Replicar el Griding en HTML
+    -> Pintar el HTML con CSS en grandes componentes
+    ==== 80%
+    -> Refinar el diseno al "pixel perfect"
+    ==== 20%
+
+Desktop
+
+
+    - CSS se conecta con el HTML a traves de la etiqueta link: 
+        <link rel="stylesheet" href="style.css">
+
+    - Como el CSS modifica el HTML (aspecto)?
+        -> etiquetas (nombres)
+        -> clases
+        -> id's
+
+    -> Como cambio el tamano de una imagen?
+
+        -> img {
+            width: 200px;
+        }
+
+    -> Referencias: https://www.w3schools.com/cssref/default.asp

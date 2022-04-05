@@ -50,4 +50,53 @@ FORMULARIOS
         -> action: Para formularios dinamicos es donde va una URL a donde se va a enviar la informacion
         del formulario
         -> method: Que es como se va a enviar esa informacion a traves de HTTP (protocolo)
+
+
+    EJERCICIO RAPIDO #1
+
+        form
+            input (text)
+            input (email)
+            input (password)
+            button
+        div
+            article
+    
+    EJERCICIO RAPIDO #2
+
+        form
+            input (text)
+            input (password)
+            button
+
+        article
+            div
+    
+    EJERCICIO RAPIDO #3: 
+
+        - Quiero registrar un usuario en el sistema y se pide los siguientes campos
+
+            - Nombre
+            - Apellido
+            - Email
+            - Clave 
+            - Repetir clave
+            - Accion: Registrar
+
+        form
+            input (placeholder: Nombre) (type: text)
+            input (placeholder: Apellido) (type: text)
+            input (placeholder: Email) (type: email)
+            input (placeholder: Clave) (type: password)
+            button (type: button) 
+                Registrar
+
+    EJERCICIO RAPIDO #4: 
+
+        - Quiero dar de alta mi mascota en un sistema de veterinaria y me pide los siguientes datos: 
         
+            - Nombre
+            - Raza
+            - Edad
+            - Matricula
+            - Accion: Guardar

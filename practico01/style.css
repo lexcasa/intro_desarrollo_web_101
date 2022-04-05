@@ -1,0 +1,47 @@
+img {
+    width: 140px;
+    margin-bottom: 15px;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 400px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 400px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0869b8;
+    text-decoration: none;
+}
+
+#blueButton {
+    background-color: #107fda;
+    color: #fff;
+    border: 0px;
+}
+
+#greyButton {
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+    border: 0px;
+}
+
+p {
+    margin-bottom: 0;
+}
