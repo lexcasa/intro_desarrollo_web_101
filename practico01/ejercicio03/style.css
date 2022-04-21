@@ -1,0 +1,100 @@
+@media all {
+    * {
+        font-family: sans-serif;
+    }
+    body {
+        margin: 0;
+    }
+
+    #header {
+        display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #header div {
+        flex: 1;
+    }
+    #header div:last-child {
+        text-align: right;
+    }
+
+    #contInformacion {
+        display: flex;
+    }
+    #contInformacion .columna {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contInformacion .columna img {
+        width: 30rem;
+    }
+    .contensor {
+        width: 20rem;
+    }
+    .contensor h2 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: rgb(18 122 175);
+        font-weight: lighter;
+        margin-bottom: 0;
+    }
+    .contensor p {
+        color: #888;
+        letter-spacing: 0.08rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .contensor button {
+        background-color: rgb(15, 169, 230);
+        color: #fff;
+        text-transform: capitalize;
+        border: 0;
+        width: 8rem;
+        line-height: 2rem;
+        border-radius: 0.25rem;
+        font-weight: bold;
+    }
+    #logo {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: rgb(15, 169, 230);
+    }
+    #burger {
+        color:rgb(15, 169, 230);
+        font-size: 2rem;
+    }
+    .line {
+        height: 0.25rem;
+        background-color: rgb(15, 169, 230);
+        width: 9rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+/* Mobile */
+@media (max-width: 768px){
+    #contInformacion {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #contInformacion .columna img {
+        width: 100%;
+    }
+    #header div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contensor {
+        text-align: center;
+    }
+    .contensor button {
+        width: 100%;
+    }
+}
