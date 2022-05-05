@@ -1,0 +1,32 @@
+JAVASCRIPT
+
+    -> Programacion
+    -> Como interactua JS con el HTML
+
+
+    -> Programacion: 
+
+        1. Def. de variables y tipos
+        2. Logica
+        3. Iteracion y control de flujo
+        4. Funciones
+
+
+    -> Como def. una variable en el JS y se muestra en el HTML
+
+    EJEMPLO RAPIDO #1: El titulo del baner izq. podemos editar desde el JS
+    EJERCICIO RAPIDO #2: Crear un menu desplegable de la pagina web
+    EJERCICIO RAPIDO #3: Cargar las secciones dependiendo a que boton le clic
+
+    Documentacion: https://www.w3schools.com/jsref/default.asp
+
+    Practicar: 
+        -> Clase de hoy
+        -> Hacer ejercicios del practico del 1 al 4
+        
+            -> Ejercicio 3 aclaracion: 
+                <p>Hola Alex [[apellido]] </p> -> <p>Hola Alex <b id="apellido"></b> </p>
+
+            -> Ejercicio 4 alcaracion: 
+                -> Agrego el HTML de la lista y lo oculto
+                -> Al dar clic en el boton - lo muestro

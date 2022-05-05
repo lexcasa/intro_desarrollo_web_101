@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WEB APP</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div>
+                <a href="#" id="logo">logo company</a>
+            </div>
+            <div>
+                <i class="fa fa-bars" id="burger" onclick="abreCierraMenu()"></i>
+            </div>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="#" onclick="muestraSeccion('#contInformacion')">Home</a>
+                </li>
+                <li>
+                    <a href="#" onclick="muestraSeccion('#sobreNosotros')">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="#" onclick="muestraSeccion('#contacto')">Contacto</a>
+                </li>
+                <li>
+                    <a href="#" onclick="abreCierraMenu()">Cerrar</a>
+                </li>
+            </ul>
+        </div>
+        <div id="contInformacion" class="secciones">
+            <!-- Columna -->
+            <div class="columna">
+                <!-- Contensor -->
+                <div class="contensor">
+                    <h2>Responsive web design</h2>
+                    <div class="line"></div>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, praesentium. Molestiae perspiciatis reiciendis excepturi, impedit et sequi. Animi quod reiciendis dignissimos praesentium, itaque quidem alias quia error accusantium laudantium asperiores!
+                    </p>
+                    <button>
+                        about company
+                    </button>
+                </div>
+            </div>
+            <!-- Columna -->
+            <div class="columna">
+                <img src="home-img.png" alt="">
+            </div>
+        </div>
+        <div id="sobreNosotros" class="secciones">
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolor cumque reiciendis laboriosam praesentium beatae ratione assumenda nesciunt, ad alias tenetur aperiam qui dolore facilis temporibus? Delectus sapiente ea amet.</p>
+        </div>
+        <div id="contacto" class="secciones">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa expedita ex qui, eius explicabo accusantium fugiat, reprehenderit cumque dicta nisi vel hic. Eveniet consequuntur quo vitae corporis? Sequi, fuga fugiat?</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
